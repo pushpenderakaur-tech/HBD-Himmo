@@ -772,12 +772,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const targetCenterX =
         targetRect.left +
-        targetRect.width / 2;
+        targetRect.width / 1;
 
 
       const targetCenterY =
         targetRect.top +
-        targetRect.height / 2;
+        targetRect.height / 1;
 
 
       const arrowStartX =
@@ -786,7 +786,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const arrowStartY =
         arrowRect.top +
-        arrowRect.height / 2;
+        arrowRect.height / 1;
 
 
       const distanceX =
@@ -839,7 +839,7 @@ document.addEventListener("DOMContentLoaded", () => {
           Heart changes to arrow-heart symbol.
         */
 
-        gameArrow.style.zIndex = "30";
+        gameArrow.style.zIndex = "20";
 
 
         heartTarget.classList.add(
